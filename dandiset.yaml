@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000635
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -13,7 +14,7 @@ citation: Soliman, Sherif (2023) 20230930_AIBS_Patchseq_nonhuman_primate (Versio
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000635/draft
 contributor:
 - affiliation: []
-  email: hi@sherif.io
+  email: sherif.soliman@alleninstitute.org
   includeInCitation: true
   name: Soliman, Sherif
   roleName:
@@ -21,15 +22,24 @@ contributor:
   schemaKey: Person
 dateCreated: '2023-09-15T20:41:36.876957+00:00'
 description: HMBA Lein PatchSeq upload (Q3 2023)
+ethicsApproval: []
 id: DANDI:000635/draft
 identifier: DANDI:000635
+keywords:
+- Patch-seq
+- non-human primate
+- multimodal
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000635/versions/draft/assets/
 name: 20230930_AIBS_Patchseq_nonhuman_primate
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000635/draft
 version: draft
+wasGeneratedBy: []
