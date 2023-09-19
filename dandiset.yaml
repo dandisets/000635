@@ -34,7 +34,8 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000635/versions/draft/assets/
 name: 20230930_AIBS_Patchseq_nonhuman_primate
-protocol: []
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
