@@ -7,18 +7,95 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4707135438
+  numberOfFiles: 81
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
-citation: Soliman, Sherif (2023) 20230930_AIBS_Patchseq_nonhuman_primate (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000635/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9545
+    name: Macaca nemestrina
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CurrentClampSeries
+  - CurrentClampStimulusSeries
+  - VoltageClampSeries
+  - ProcessingModule
+  - VoltageClampStimulusSeries
+citation: Soliman, Sherif; Lee, Brian; Allen Institute for Brian Science; National
+  Institute of Mental Health; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2023) 20230930_AIBS_Patchseq_nonhuman_primate
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000635/draft
 contributor:
 - affiliation: []
   email: sherif.soliman@alleninstitute.org
+  identifier: 0009-0008-7098-0717
   includeInCitation: true
   name: Soliman, Sherif
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - name: https://ror.org/00dcv1019
+    schemaKey: Affiliation
+  email: brianle@alleninstitute.org
+  identifier: 0000-0002-3210-5638
+  includeInCitation: true
+  name: Lee, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: UM1MH130981
+  contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brian Science
+  roleName: []
+  schemaKey: Organization
+  url: https://alleninstitute.org/
+- awardNumber: UM1MH130981
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: true
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
+- affiliation: []
+  email: briank@alleninstitute.org
+  identifier: 0000-0003-3136-8097
+  includeInCitation: true
+  name: Kalmbach, Brian
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: racheld@alleninstitute.org
+  includeInCitation: true
+  name: Dalley, Rachel
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- affiliation: []
+  email: edl@alleninstitute.org
+  identifier: 0000-0001-9012-6552
+  includeInCitation: true
+  name: Lein, Ed
+  roleName:
+  - dcite:ProjectLeader
   schemaKey: Person
 dateCreated: '2023-09-15T20:41:36.876957+00:00'
 description: HMBA Lein PatchSeq upload (Q3 2023)
