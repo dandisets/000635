@@ -37,7 +37,7 @@ assetsSummary:
   - VoltageClampStimulusSeries
 citation: Soliman, Sherif; Lee, Brian; Allen Institute for Brian Science; National
   Institute of Mental Health; Kalmbach, Brian; Dalley, Rachel; Lein, Ed (2023) 20230930_AIBS_Patchseq_nonhuman_primate
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000635/draft
+  (Version 0.230921.1734) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000635/0.230921.1734
 contributor:
 - affiliation: []
   email: sherif.soliman@alleninstitute.org
@@ -100,8 +100,9 @@ contributor:
 dateCreated: '2023-09-15T20:41:36.876957+00:00'
 datePublished: '2023-09-21T17:34:43.928404+00:00'
 description: HMBA Lein PatchSeq upload (Q3 2023)
+doi: 10.48324/dandi.000635/0.230921.1734
 ethicsApproval: []
-id: DANDI:000635/draft
+id: DANDI:000635/0.230921.1734
 identifier: DANDI:000635
 keywords:
 - Patch-seq
@@ -110,7 +111,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000635/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000635/0.230921.1734/assets.yaml
 name: 20230930_AIBS_Patchseq_nonhuman_primate
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
@@ -131,6 +132,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000635/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000635/0.230921.1734
+version: 0.230921.1734
 wasGeneratedBy: []
